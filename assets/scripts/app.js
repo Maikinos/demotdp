@@ -1,5 +1,8 @@
 //new WOW().init();
 function openCity(cityName,elmnt) {
+
+    
+
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
@@ -29,3 +32,4 @@ $(e.target)
         }
         $('#accordion').on('hidden.bs.collapse', toggleChevron);
         $('#accordion').on('shown.bs.collapse', toggleChevron);
+
