@@ -1,7 +1,5 @@
 //new WOW().init();
-function openCity(cityName,elmnt) {
-
-    
+function openCity(cityName,elmnt) { 
 
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
@@ -18,10 +16,6 @@ function openCity(cityName,elmnt) {
     elmnt.style.backgroundColor = '#f52d2d';
     elmnt.style.color = '#ffff';
 }
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-
-
 
 //Toggle chevrons
 function toggleChevron(e) {
