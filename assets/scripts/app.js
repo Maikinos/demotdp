@@ -25,6 +25,10 @@ function oTab(){
       });
 }
 
+function ontaber(){
+    $(".promo").show();
+}
+
 //Toggle chevrons
 function toggleChevron(e) {
 $(e.target)
