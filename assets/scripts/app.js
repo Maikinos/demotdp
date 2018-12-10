@@ -29,6 +29,51 @@ function ontaber(){
     $(".promo").show();
 }
 
+function traeMe(){
+    $('#buscar').on('click', function(){
+
+    
+        compruebaim = $('#txtbuscar').val();
+    
+        pat1 = /bactrim/;
+        pat2 = /repriman/;
+            
+        siinst = pat1.test(compruebaim);
+        siinst2 = pat2.test(compruebaim);
+    
+        if (siinst) {
+            $('.returna-cos').show();
+            $('.returna-bactrim').show();
+            $('.returna-repriman').hide();
+        }
+    
+        else if(siinst2){
+            $('.returna-cos').show();
+            $('.returna-bactrim').hide();
+            $('.returna-repriman').show();
+        }
+        
+    });
+}
+
+function agregadoSelecto(){
+    $('.prod-selec').on('click', function(){
+
+        $('.returna-wos').show();
+        $('.ccptt01').show();
+       
+        
+    });
+
+    $('.prod-selec2').on('click', function(){
+
+        $('.returna-wos').show();
+        $('.ccptt02').show();
+       
+        
+    });
+}
+
 //Toggle chevrons
 function toggleChevron(e) {
 $(e.target)
