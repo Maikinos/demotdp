@@ -15,6 +15,14 @@ function openCity(cityName,elmnt) {
     document.getElementById(cityName).style.display = "block";
     elmnt.style.backgroundColor = '#f52d2d';
     elmnt.style.color = '#ffff';
+
+    
+}
+
+function oTab(){
+    $( "#check-prod" ).click(function() {
+        $("#l-pedido").click();
+      });
 }
 
 //Toggle chevrons
@@ -26,6 +34,8 @@ $(e.target)
         }
         $('#accordion').on('hidden.bs.collapse', toggleChevron);
         $('#accordion').on('shown.bs.collapse', toggleChevron);
+
+        
 
 
         
