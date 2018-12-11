@@ -35,8 +35,8 @@ function traeMe(){
     
         compruebaim = $('#txtbuscar').val();
     
-        pat1 = /bactrim/;
-        pat2 = /repriman/;
+        pat1 = /actrim/;
+        pat2 = /epriman/;
             
         siinst = pat1.test(compruebaim);
         siinst2 = pat2.test(compruebaim);
